@@ -30916,7 +30916,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 4294967294
   m_IsActive: 1
 --- !u!154 &1456244595
 TerrainCollider:
@@ -30925,7 +30925,7 @@ TerrainCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456244594}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 32510d7bb0be76a449de60fbbbea4eff, type: 2}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 42594577e9b955d42bbdcc26f2dc0c52, type: 2}
   m_EnableTreeColliders: 1
@@ -41152,6 +41152,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 667004389}
     m_Modifications:
+    - target: {fileID: 2162926848713473269, guid: 7042f8fe21debc944b5bdc894f478d63,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3316e3fbaf025e64c92c6afde53330aa, type: 2}
     - target: {fileID: 5963937743390997973, guid: 7042f8fe21debc944b5bdc894f478d63,
         type: 3}
       propertyPath: m_RootOrder
